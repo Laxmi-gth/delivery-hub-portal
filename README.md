@@ -119,6 +119,3 @@ The Delivery Hub Portal is a web-based platform aimed at streamlining operations
 - Franchise manager with dashboards
 ```
 
----
-
-Would you like me to save this as a downloadable `.md` file and zip it up for you?
