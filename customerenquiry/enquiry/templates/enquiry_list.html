@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Enquiry List  </title></head>
+<body>
+<h2>All Enquiries - count {{ count }} </h2>
+<table border="1">
+  <tr>
+    <th>Query ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Query</th>
+    <th>Status</th>
+  </tr>
+  {% for enquiry in enquiries %}
+  <tr>
+    <td>{{ enquiry.query_id }}</td>
+    <td>{{ enquiry.customer_name }}</td>
+    <td>{{ enquiry.email }}</td>
+    <td>{{ enquiry.phone }}</td>
+    <td>{{ enquiry.query }}</td>
+    <td>{{ enquiry.status }}</td>
+  </tr>
+  {% endfor %}
+</table>
+</body>
+</html>
